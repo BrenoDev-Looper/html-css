@@ -221,6 +221,15 @@ span {
     
 }
 
+
+ul {
+    list-style-type: '\2714';
+    columns: 2;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+}
+
 .links {
     display: flex;
     flex-direction: row;
