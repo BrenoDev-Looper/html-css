@@ -15,11 +15,19 @@
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
-        }
+            background-attachment: fixed;
 
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+        }
+            /*
+            shorthand background
+            background: color > image > position > repeat > [size] > attachment
+
+            seize não esta funcionando na shorthand, recomendável utilizar ele fora dessa shorthand
+            */
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
